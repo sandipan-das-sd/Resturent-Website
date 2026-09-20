@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aaranya — a modern Indian dining experience rooted in fire, forest and season." />
+  <title>Aaranya — Modern Indian Kitchen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="loader" aria-hidden="true"><span>A</span></div>
+  <header class="nav">
+    <a class="brand" href="#home" aria-label="Aaranya home"><span>A</span>AARANYA</a>
+    <nav aria-label="Primary navigation">
+      <a href="#story">Our story</a><a href="#menu">Menu</a><a href="#experience">Experience</a>
+    </nav>
+    <button class="reserve-link" data-open-booking>Reserve a table <span>↗</span></button>
+    <button class="menu-toggle" aria-label="Toggle menu"><i></i><i></i></button>
+  </header>
+  <div class="availability"><i></i><span>Reservations open</span><b>September</b></div>
+
+  <main>
+    <section class="hero" id="home">
+      <img class="hero-image" src="assets/aaranya-hero.png" alt="Charcoal grilled paneer with saffron sauce" />
+      <div class="hero-shade"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Kolkata · India</p>
+        <h1>Rooted in <em>earth.</em><br>Reimagined by <em>fire.</em></h1>
+        <p class="intro">A seasonal exploration of Indian ingredients, told through smoke, memory and a little beautiful mischief.</p>
+        <button class="round-button" data-open-booking><span>Book your<br>table</span><b>↗</b></button>
+      </div>
+      <div class="hero-meta"><span>Tuesday — Sunday</span><span>12:00 — 23:30</span></div>
+      <a class="scroll" href="#story"><span></span>Scroll to discover</a>
+    </section>
+
+    <section class="marquee" aria-label="Restaurant philosophy"><div>FIRE &amp; FOREST <i>✦</i> SEASON &amp; SOUL <i>✦</i> FIRE &amp; FOREST <i>✦</i> SEASON &amp; SOUL <i>✦</i></div></section>
+
+    <section class="story" id="story">
+      <div class="story-number">01</div>
+      <div class="story-heading reveal"><p class="eyebrow dark">The philosophy</p><h2>Old soul.<br><em>New expression.</em></h2></div>
+      <div class="story-copy reveal">
+        <p>We cook with what the land gives us. Ancient Indian techniques meet curious, modern hands in a menu that changes with the seasons.</p>
+        <p>Every plate begins with a memory — a street-side flame, a grandmother’s spice box, rain on red earth — and ends somewhere entirely new.</p>
+        <a href="#menu">Explore the menu <span>→</span></a>
+      </div>
+      <div class="spice-orbit" aria-hidden="true"><div>अरण्य</div><span></span><i></i><b></b></div>
+    </section>
+
+    <section class="signature">
+      <div class="signature-image reveal"><img src="assets/aaranya-hero.png" alt="Aaranya's signature ember paneer"><span>Signature № 07</span></div>
+      <div class="signature-copy reveal">
+        <p class="eyebrow dark">A dish with a past</p><h2>Ember<br><em>Paneer.</em></h2>
+        <p>Milk, smoke and saffron. A familiar ingredient transformed over charcoal, then finished with fermented pepper and mustard leaves from the chef’s garden.</p>
+        <div class="ingredient-row"><span>01<br><small>Local milk</small></span><span>02<br><small>Kashmiri saffron</small></span><span>03<br><small>Wood fire</small></span></div>
+      </div>
+      <div class="signature-stamp" aria-hidden="true">SEASONAL<br>· AARANYA ·</div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-top reveal"><div><p class="eyebrow">From our kitchen</p><h2>A menu that<br><em>moves with nature.</em></h2></div><p>Our tasting menu is a journey in twelve moments. A shorter à la carte menu is served at lunch.</p></div>
+      <div class="menu-tabs" role="tablist"><button class="active" data-menu="tasting">Tasting journey</button><button data-menu="lunch">Lunch</button><button data-menu="drinks">Drinks</button></div>
+      <div class="menu-list" id="menu-list"></div>
+      <p class="menu-note">Our kitchen is happy to accommodate dietary preferences with advance notice.</p>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="experience-card reveal">
+        <p class="eyebrow">A room for wonder</p><h2>Come for dinner.<br><em>Stay for the story.</em></h2>
+        <p>Low lights, warm hospitality and the pulse of an open kitchen. Aaranya is designed to make time feel a little slower.</p>
+        <button data-open-booking>Reserve your evening <span>↗</span></button>
+      </div>
+      <div class="quote reveal"><span>“</span><p>Cooking is memory made edible.</p><small>— Chef Anika Sen</small></div>
+    </section>
+
+    <section class="press-strip" aria-label="Press mentions"><p>As seen in</p><span>VOGUE</span><span>Condé Nast<br>Traveller</span><span>GQ</span><span>Architectural<br>Digest</span></section>
+
+    <section class="visit">
+      <p class="eyebrow dark">Find your way</p><h2 class="reveal">Meet us beneath<br><em>the old banyan.</em></h2>
+      <div class="visit-grid">
+        <div><small>Address</small><p>17, Ballygunge Place<br>Kolkata, West Bengal 700019</p></div>
+        <div><small>Opening hours</small><p>Tue — Sun, 12:00 — 23:30<br>Monday, closed</p></div>
+        <div><small>Say hello</small><p>hello@aaranya.restaurant<br>+91 98300 04217</p></div>
+      </div>
+      <button class="round-button dark-button" data-open-booking><span>Reserve<br>a table</span><b>↗</b></button>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span>A</span>AARANYA</a><p>Modern Indian kitchen · Kolkata</p><div><a href="#">Instagram</a><a href="#">Directions</a></div><small>© 2026 Aaranya. Demo concept.</small></footer>
+
+  <dialog class="booking">
+    <button class="close" aria-label="Close booking">×</button>
+    <p class="eyebrow dark">Your table awaits</p><h2>Reserve an <em>evening.</em></h2>
+    <form id="booking-form">
+      <label>Guests<select><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5+ guests</option></select></label>
+      <label>Date<input type="date" required></label>
+      <label>Time<select><option>7:00 PM</option><option>7:30 PM</option><option>8:00 PM</option><option>8:30 PM</option><option>9:00 PM</option></select></label>
+      <label class="full">Name<input type="text" placeholder="Your name" required></label>
+      <label class="full">Email<input type="email" placeholder="you@example.com" required></label>
+      <button type="submit">Find a table <span>→</span></button>
+    </form>
+    <p class="success" hidden>Beautiful. Your table request is on its way.</p>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
