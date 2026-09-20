@@ -1,0 +1,10 @@
+{
+  "name": "Aaranya — Modern Indian Kitchen",
+  "short_name": "Aaranya",
+  "description": "Seasonal modern Indian dining in Kolkata.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2d0d1e",
+  "theme_color": "#2d0d1e",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
